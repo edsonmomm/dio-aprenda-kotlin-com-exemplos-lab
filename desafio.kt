@@ -18,7 +18,6 @@ data class Formacao(val nome: String, val nivel: Nivel, var conteudos: List<Cont
 }
 
 fun main() {
-    println("teste")
     // Criando alguns conteúdos educacionais
     val conteudoIntroducao = ConteudoEducacional("Introdução cursos DIO", DuracaoMinutos.CINCO)
     val conteudoIntroducaoKotlin = ConteudoEducacional("Introdução curso Kotlin", DuracaoMinutos.CINCO)
